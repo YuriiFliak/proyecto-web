@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aventuras por el Mundo</title>
+  <meta name="author" content="YURII FLIAK" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header>
+  <h1>Aventuras por el Mundo</h1>
+  <p>El diario de un viajero incansable</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Destinos</a></li>
+    <li><a href="#">Sobre Mí</a></li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
+</nav>
+
+<main>
+  <article>
+    <h2>Kioto: Un Viaje al Corazón del Japón Tradicional</h2>
+    <p>Publicado por Alex Viajero el <time datetime="2025-09-29">29 de septiembre de 2025</time></p>
+
+    <section>
+      <h3>Introducción</h3>
+      <p>Kioto, antigua capital de Japón, deslumbra con su belleza serena y atemporal. Sus templos centenarios, como el Kinkaku-ji cubierto en pan de oro y los jardines zen del Ryoan-ji, invitan a la contemplación y a una conexión profunda con la naturaleza. Cada rincón de la ciudad parece detenido en el tiempo, conservando el alma del Japón tradicional.</p>
+
+      <p>En primavera, los cerezos en flor tiñen de rosa los caminos del río Kamo y los senderos del distrito de Gion, donde aún pueden verse geishas caminando con gracia entre casas de té. Kioto no solo es un refugio de historia y cultura, sino también un paisaje vivo que celebra la armonía entre el ser humano y su entorno.</p>
+
+      <blockquote>Viajar es la única cosa que compras y te hace más rico</blockquote>
+    </section>
+
+    <section>
+      <h3>Lugares que no te puedes perder</h3>
+      <ol>
+        <li>Pabellón Dorado (Kinkaku-ji)</li>
+        <li>Bosque de Bambú de Arashiyama</li>
+        <li>Fushimi Inari-taisha</li>
+      </ol>
+      <figure>
+         <img src="https://espunisinjapan.com/wp-content/uploads/2023/11/07-1-1024x629.jpg" alt="Descripción de la imagen">
+        <figcaption>Miles de puertas torii rojas marcan el camino en Fushimi Inari.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h4>Vocabulario útil</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Frase en Japonés</th>
+            <th>Significado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Arigato</td>
+            <td>Gracias</td>
+          </tr>
+          <tr>
+            <td>Sumimasen</td>
+            <td>Disculpe / Perdón</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </article>
+
+  <aside>
+    <h5>Otros Destinos Populares</h5>
+    <ul>
+      <li><a href="#">Tokio</a></li>
+      <li><a href="#">Osaka</a></li>
+      <li><a href="#">Hokkaido</a></li>
+    </ul>
+  </aside>
+
+  <section>
+    <h3>Deja tu Comentario o Pregunta</h3>
+    <form action="/enviar-comentario" method="post">
+
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="tu@email.com" required><br><br>
+
+      <label for="valoracion">Valoración del artículo (1 a 5):</label><br>
+      <input type="number" id="valoracion" name="valoracion" min="1" max="5"><br><br>
+
+      <label for="fecha">Fecha de tu visita a Kioto:</label><br>
+      <input type="date" id="fecha" name="fecha"><br><br>
+
+      <label>¿Recomendarías este destino?</label><br>
+      <input type="radio" id="recomienda-si" name="recomendar" value="si">
+      <label for="recomienda-si">Sí</label><br>
+      <input type="radio" id="recomienda-no" name="recomendar" value="no">
+      <label for="recomienda-no">No</label><br><br>
+
+      <input type="checkbox" id="privacidad" name="privacidad" required>
+      <label for="privacidad">He leído y acepto la política de privacidad</label><br><br>
+
+      <label for="comentario">Tu comentario:</label><br>
+      <textarea id="comentario" name="comentario" rows="5"></textarea><br><br>
+
+      <label for="origen">¿Cómo nos encontraste?</label><br>
+      <select id="origen" name="origen">
+        <option value="buscador">Buscador</option>
+        <option value="redes">Redes Sociales</option>
+        <option value="amigo">Un amigo</option>
+      </select><br><br>
+
+      <button type="submit">Enviar Comentario</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Aventuras por el Mundo. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
